@@ -1,6 +1,6 @@
 {
   "name": "@pch18run/ts-init",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -10,6 +10,7 @@
   "author": "pch18 <pch18@qq.com> (https://pch18.cn/)",
   "license": "ISC",
   "dependencies": {
+    "@pch18/shell-tools": "^1.0.3",
     "@types/node": "latest"
   },
   "devDependencies": {},
