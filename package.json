@@ -1,6 +1,6 @@
 {
   "name": "@pch18run/ts-init",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -9,15 +9,17 @@
   "scripts": {},
   "author": "pch18 <pch18@qq.com> (https://pch18.cn/)",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pch18/npmrun_ts-init.git"
-  },
-  "bugs": {
-    "url": "https://github.com/pch18/npmrun_ts-init/issues"
-  },
-  "homepage": "https://github.com/pch18/npmrun_ts-init#readme",
   "dependencies": {
     "@types/node": "latest"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pch18-npmrun/ts-init.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/pch18-npmrun/ts-init/issues"
+  },
+  "homepage": "https://github.com/pch18-npmrun/ts-init#readme"
 }
