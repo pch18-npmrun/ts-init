@@ -34,7 +34,7 @@ const main = async () => {
         '名称不符合规范,不允许使用特殊字符'
     )
 
-    await shell.processSpawn(`cp -Ran ${templateDir}/  ${packageDir}`, '生成基本文件', true)
+    await shell.processSpawn(`cp -Ran ${templateDir}/*  ${packageDir}`, '生成基本文件', true)
 
     await shell.processDone(() => {
         packageJSON.name = packageName
