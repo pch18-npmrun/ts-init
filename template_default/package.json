@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "pch18",
   "keywords": [],
-  "main": "app.ts",
+  "main": "app_init.js",
   "scripts": {
     "test": "node ./app_init.js",
     "start": "node ./app_init.js"
