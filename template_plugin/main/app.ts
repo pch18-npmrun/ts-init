@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+process.env.TZ = 'Asia/Shanghai';
 
 export class main {
     PackageJson: any
