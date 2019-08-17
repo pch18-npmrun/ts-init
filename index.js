@@ -52,7 +52,7 @@ const main = async () => {
 
     await shell.processSpawn([
         'git add .',
-        'git commit -m "自动构建,初次提交"'
+        'git commit -m \'自动构建,初次提交\''
     ], 'Git 初次提交', true)
 
     shell.writeln('初始化全部完成,尝试运行Hello World', 'cyan')
